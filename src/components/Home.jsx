@@ -7,7 +7,7 @@ import Logo4 from '../assets/icmmis.png'
 
 const Home = () => {
   return (
-    <div name ='home' className="w-full h-screen ">
+    <div name ='home' className="w-full h-screen">
         <div className="bg-[url('assets/homebgshad.png')] h-full bg-cover bg-center bg-no-repeat">
           <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-full">
             <h1 className="text-[#527271] font-extrabold text-3xl">About Us</h1>
@@ -73,17 +73,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+        <div className="h-[6rem]">
         </div>
     </div>
   );
