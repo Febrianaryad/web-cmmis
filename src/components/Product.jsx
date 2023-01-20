@@ -15,34 +15,37 @@ const Product = () => {
         <div className="max-w-[62.5rem] min-h-screen mx-auto px-8 flex flex-col justify-center">
 
 
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 hover:opacity-100">
+          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
             <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              Service 1
+              <a href="/services1">Service 1</a>
             </div>
             
           </div>
 
           <br />
+          <br />
 
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 hover:opacity-100">
+          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
             <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              Service 2
+              <a href="/services1">Service 2</a>
             </div>
           </div>
 
           <br />
+          <br />
 
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 hover:opacity-100">
+          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
             <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              Service 3
+              <a href="/services1">Service 3</a>
             </div>
           </div>
 
           <br />
+          <br />
 
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 hover:opacity-100">
+          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
             <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              Service 4
+              <a href="/services1">Service 4</a>
             </div>
           </div>
 

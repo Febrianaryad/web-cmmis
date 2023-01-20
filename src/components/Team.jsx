@@ -25,7 +25,7 @@ const Team = () => {
 
       <div className="max-w-[77.5rem] mx-auto grid md:grid-cols-3 gap-5">
 
-        <div className="w-full flex flex-col p-4 mb-5 mt-20">
+        <div className="w-full flex flex-col p-4 mb-5 mt-20 opacity-100 duration-500 hover:opacity-50">
             <img className="mx-auto mt object-scale-down h-80 w-80" src={Prof1} alt="/"/>
               <div className="justify-center mt-5 items-center text-center">
                   <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
@@ -39,7 +39,7 @@ const Team = () => {
             </div>
         
 
-          <div className="w-full flex flex-col p-4 mb-5 mt-20">
+          <div className="w-full flex flex-col p-4 mb-5 mt-20 opacity-100 duration-500 hover:opacity-50">
             <img className="mx-auto mt object-scale-down h-80 w-80" src={Prof2} alt="/"/>
             <div className="justify-center mt-5 items-center text-center">
               <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
@@ -52,7 +52,7 @@ const Team = () => {
               </div>
           </div>
           
-          <div className="w-full flex flex-col p-4 mb-5 mt-20">
+          <div className="w-full flex flex-col p-4 mb-5 mt-20 opacity-100 duration-500 hover:opacity-50">
             <img className="mx-auto mt object-scale-down h-80 w-80" src={Prof3} alt="/"/>
             <div className="justify-center mt-5 items-center text-center w-max-[10rem]">
               <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">

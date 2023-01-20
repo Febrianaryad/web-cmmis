@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import ChairProf from './components/ChairProf';
 import ViceChairProf from './components/ViceChairProf';
 import SecreProf from './components/SecreProf';
+import Services1 from './components/Services1';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/team' element={<Team/>}/>
         <Route path='/products' element={<Product/>}/>
+        <Route path='/services1' element={<Services1/>}/>
         <Route path='/contacts' element={<Contact/>}/>
         <Route path='/career' element={<Career/>}/>
         <Route path='/chairman' element={<ChairProf/>}/>

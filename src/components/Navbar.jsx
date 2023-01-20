@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     
     return (
-        <div className="fixed w-full h-[7.5rem] lg:inline-flex lg:flex-row items-center px-4 bg-[#edf3f3]">
+        <div className="fixed w-full h-[7.5rem] lg:inline-flex lg:flex-row items-center px-4 bg-[#edf3f3] z-50">
             <div className="flex flex-wrap">
                 <div>
                     <img src={Logo} alt="Icon Image" style={{width: '5rem'}}/>

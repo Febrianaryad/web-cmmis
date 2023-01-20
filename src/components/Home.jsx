@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from 'react';
 import Logo from '../assets/logo.png'
 import Logo1 from '../assets/imghome1.png'
 import Logo2 from '../assets/imghome2.png'
 import Logo3 from '../assets/imghome3.png'
 import Logo4 from '../assets/icmmis.png'
 
+
 const Home = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div name ='home' className="w-full h-screen">
         <div className="bg-[url('assets/homebgshad.png')] h-full bg-cover bg-center bg-no-repeat">
@@ -33,7 +36,7 @@ const Home = () => {
         </div>
 
         <div className="max-w-[77.5rem] mx-auto grid md:grid-cols-2 gap-10">
-          <div className="w-full flex flex-col p-4 mb-5 mt-20">
+          <div className='w-full flex flex-col p-4 mb-5 mt-20 opacity-100 duration-500 hover:opacity-50'>
           <img className="w-45 mx-auto mt" src={Logo2} alt="/"/>
             <div className="justify-center flex flex-wrap mt-5">
                 <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
@@ -48,7 +51,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-col p-4 mb-5 mt-20">
+          <div className="w-full flex flex-col p-4 mb-5 mt-20 opacity-100 duration-500 hover:opacity-50">
           <img className="w-45 mx-auto mt" src={Logo1} alt="/"/>
             <div className="justify-center flex flex-wrap mt-5">
                 <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
@@ -64,7 +67,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="max-w-[35rem] mx-auto grid md:grid-cols-1 gap-10">
+        <div className="max-w-[35rem] mx-auto grid md:grid-cols-1 gap-10 opacity-100 duration-500 hover:opacity-50">
           <div className="w-full flex flex-col p-4 my-5">
             <img className="w-45 mx-auto mt" src={Logo3} alt="/"/>
               <div className="justify-center flex flex-wrap mt-5">

@@ -15,4 +15,9 @@
     @apply px-4;
     @apply cursor-pointer
   }
+
+  button {
+    @apply text-white border bg-[#5596c2] border-[#5596c2]
+    hover:bg-transparent hover:text-[#5596c2]
+  }
 }
