@@ -18,7 +18,7 @@ const ChairProf = () => {
 
       <div className="max-w-[77.5rem] mx-auto grid md:grid-cols-2 gap-5">
         <div className="w-full flex flex-col p-4 mb-5 mt-20">
-            <img className="mx-auto mt object-scale-down h-80 w-80" src={Prof} alt="/"/>
+            <img className="mx-auto mt object-scale-down h-72 w-72" src={Prof} alt="/"/>
               <div className="justify-center mt-5 items-center text-center">
                   <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
                     Dr. IR. Raden Sukhyar
@@ -30,7 +30,7 @@ const ChairProf = () => {
               </div>
         </div>
 
-        <div className="max-w-[45rem] text-xl text-justify mt-20">
+        <div className="max-w-[45rem] text-xl text-justify mt-20 p-10">
           <p>
             Dr. Raden Sukhyar, is a prominent figure with more than four decades of experience in the fields of Mineral Resources and Energy Sector. During his tenure in Ministry of Energy and Mineral Resources he held several pivotal positions, served as Head of Indonesia Geological Agency and Director General of Mineral and Coal, with also held positions as commissioners in state owned enterprises. He authored numerous professionalpolicies, serviced as an advisor to a number of organizations and achieved a number of awards, including the Bintang Jasa Utama from President Republic of Indonesia and Ganesha Wirya Jasa Utama from Bandung Instute of Technology (ITB).
           </p>

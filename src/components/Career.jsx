@@ -1,102 +1,37 @@
 import React from "react";
-
+import Logo from '../assets/logo.png'
 
 const Career = () => {
   return (
-    <div className="w-full min-h-screen ">
-      <div className="bg-[url('assets/careerbgshad.png')] h-full bg-cover bg-center bg-no-repeat">
-        <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-[18rem]">
-            <div className="mt-[7rem]">
-              <h3 className="text-[#515f5f] font-extrabold text-4xl pb-[0.5rem]">Hi!</h3>
-              <h3 className="text-[#bdba7e] font-extrabold text-4xl">Welcome to RSky Group Career Center</h3>
-            </div>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-10 px-4 pt-12 sm:pt-20 text-black">
-          <div className="bg-white rounded-xl shadow-2xl">
-            <div className="px-8 pb-8">
-              <h3 className="font-bold text-xl mt-6 mb-3 text-[#515f5f]">Researcher</h3>
-              <p className="text-[#515f5f]">Lorem Ipsum Bla bla bala nasdba bskdnnmck kanfklanfka nkasdn</p>
-            </div>
-            <div className="flex space-x-72 bg-slate pl-8 py-4">
-              {/* <div className="">
-                <img src="assets/locationicon.png" alt="" className="shadow rounded max-w-full h-auto align-middle border-none"/>
-              </div> */}
-              <p className=" text-black">Jakarta</p>
-              <p className=" text-black">Details >>></p>
-
-            </div>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-2xl">
-            <div className="px-8 pb-8">
-              <h3 className="font-bold text-xl mt-6 mb-3 text-[#515f5f]">Product Manager</h3>
-              <p className="text-[#515f5f]">Lorem Ipsum Bla bla bala nasdba bskdnnmck kanfklanfka nkasdn</p>
-            </div>
-            <div className="flex space-x-72 bg-slate pl-8 py-4">
-              <p className=" text-black">Jakarta</p>
-              <p className=" text-black">Details >>></p>
-
-            </div>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-2xl">
-            <div className="px-8 pb-8">
-              <h3 className="font-bold text-xl mt-6 mb-3 text-[#515f5f]">Job 5</h3>
-              <p className="text-[#515f5f]">Lorem Ipsum Bla bla bala nasdba bskdnnmck kanfklanfka nkasdn</p>
-            </div>
-            <div className="flex space-x-72 bg-slate pl-8 py-4">
-              <p className=" text-black">Jakarta</p>
-              <p className=" text-black">Details >>></p>
-
-            </div>
-          </div>
-        </div>
-
-
-
-
-        <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-6 sm:pt-10 text-black">
-          <div className="bg-white rounded-xl shadow-2xl">
-            <div className="px-8 pb-8">
-              <h3 className="font-bold text-xl mt-6 mb-3 text-[#515f5f]">Job 4</h3>
-              <p className="text-[#515f5f]">Lorem Ipsum Bla bla bala nasdba bskdnnmck kanfklanfka nkasdn</p>
-            </div>
-            <div className="flex space-x-72 bg-slate pl-8 py-4">
-              <p className=" text-black">Jakarta</p>
-              <p className=" text-black">Details >>></p>
-
-            </div>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-2xl">
-            <div className="px-8 pb-8">
-              <h3 className="font-bold text-xl mt-6 mb-3 text-[#515f5f]">Job 3</h3>
-              <p className="text-[#515f5f]">Lorem Ipsum Bla bla bala nasdba bskdnnmck kanfklanfka nkasdn</p>
-            </div>
-            <div className="flex space-x-72 bg-slate pl-8 py-4">
-              <p className=" text-black">Jakarta</p>
-              <p className=" text-black">Details >>></p>
-
-            </div>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-2xl">
-            <div className="px-8 pb-8">
-              <h3 className="font-bold text-xl mt-6 mb-3 text-[#515f5f]">Job 6</h3>
-              <p className="text-[#515f5f]">Lorem Ipsum Bla bla bala nasdba bskdnnmck kanfklanfka nkasdn</p>
-            </div>
-            <div className="flex space-x-72 bg-slate pl-8 py-4">
-              <p className=" text-black">Jakarta</p>
-              <p className=" text-black">Details >>></p>
-
-            </div>
-          </div>
-        </div>
-
-        <div className="h-[8rem]">
+    <div className="w-full min-h-screen">
+      <br />
+      <div className="w-full flex flex-row-reverse">
+        <div className="w-2/5 flex flex-col p-4 mb-5 mt-20">
+            <div className="justify-center flex flex-wrap mt-5">
+                  <div className="flex flex-col">
+                    <div className="self-end px-6 text-[#527271] font-extrabold text-2xl">
+                      RSky Investment
+                    </div>
+                    <div className="text-sm self-end pr-6">
+                      PT Mandasa Prima Investama
+                    </div>
+                  </div>
+                  <div>
+                      <img src={Logo} alt="Icon Image" style={{width: '4rem'}}/>
+                  </div>
+              </div>
         </div>
       </div>
+
+      <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-full">
+            <div className="max-w-[35rem] text-xl text-justify px-8 pb-8">
+              <h1 className="text-[#527271] font-extrabold text-5xl">Investment</h1>
+              <br />
+              <p className="text-[#515f5f]">We provide strategic advisory and services for investee to develop and in emerging the company to escalate their value in the industry.</p>
+            </div>
+          </div>
+      
+
     </div>
     
   );

@@ -1,57 +1,36 @@
 import React from "react";
-
+import Logo from '../assets/logo.png'
 
 const Product = () => {
   return (
     <div className="w-full min-h-screen">
-      <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-[18rem]">
-          <div className="mt-[7rem]">
-            <h1 className="text-[#bdba7e] font-extrabold text-6xl">Our <span className="text-[#515f5f] font-extrabold text-6xl">Services</span></h1>
-            <h2 className="text-[#515f5f] font-bold text-base">to our best in the minerals and metals industry</h2>
-          </div>
-      </div>
-
-      <div className="bg-[url('assets/prodbg.png')] min-h-screen bg-cover bg-center bg-no-repeat w-full">
-        <div className="max-w-[62.5rem] min-h-screen mx-auto px-8 flex flex-col justify-center">
-
-
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
-            <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              <a href="/services1">Service 1</a>
-            </div>
-            
-          </div>
-
-          <br />
-          <br />
-
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
-            <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              <a href="/services1">Service 2</a>
-            </div>
-          </div>
-
-          <br />
-          <br />
-
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
-            <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              <a href="/services1">Service 3</a>
-            </div>
-          </div>
-
-          <br />
-          <br />
-
-          <div className="items-center text-center h-[5rem] w-full py-8 flex justify-center bg-white opacity-30 duration-500 hover:opacity-100">
-            <div className="opacity-100 text-[#515f5f] font-bold text-xl">
-              <a href="/services1">Service 4</a>
-            </div>
-          </div>
-
-
+      <br />
+      <div className="w-full flex flex-row-reverse">
+        <div className="w-2/5 flex flex-col p-4 mb-5 mt-20">
+            <div className="justify-center flex flex-wrap mt-5">
+                  <div className="flex flex-col">
+                    <div className="self-end px-6 text-[#527271] font-extrabold text-2xl">
+                      RSky Consultancy
+                    </div>
+                    <div className="text-sm self-end pr-6">
+                      PT Pandasa Minergi Konsultan
+                    </div>
+                  </div>
+                  <div>
+                      <img src={Logo} alt="Icon Image" style={{width: '4rem'}}/>
+                  </div>
+              </div>
         </div>
       </div>
+
+      <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-full">
+            <div className="max-w-[37rem] text-xl text-justify px-8 pb-8">
+              <h1 className="text-[#527271] font-extrabold text-5xl">Strategic Consultancy</h1>
+              <br />
+              <p className="text-[#515f5f]">Our expertise and knowledge to offer linkages into markets in the region and collaboratively working with investee to grow value of industry.</p>
+            </div>
+          </div>
+      
 
     </div>
   );

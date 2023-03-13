@@ -3,7 +3,7 @@ import Logo from '../assets/logo.png'
 import Logo1 from '../assets/imghome1.png'
 import Logo2 from '../assets/imghome2.png'
 import Logo3 from '../assets/imghome3.png'
-import Logo4 from '../assets/icmmis.png'
+import Logo4 from '../assets/cmmis.png'
 
 
 const Home = () => {
@@ -17,19 +17,11 @@ const Home = () => {
             <br />
               <div className="max-w-[45rem] text-xl text-justify">
                 <p>
-                  We are a new investment and consultant group with 
-                  initiatives on the development of mineral commodity based 
-                  transformation to knowledge based economy, from mineral commodity based to metal based manufacturers 
-                  and new energy. 
+                  We are a new enterprise with initiatives on the development of mineral commodity based transformation to knowledge based economy, from mineral commodity based to metal based manufacturers and green energy.
                 </p>
                 <br />
                 <p>
-                  With founder's extensive background and experience in the 
-                  energy and mineral resources sector, in collaboration with 
-                  competent experts from multiple related disciplines, we believe 
-                  the alliance in the modern era of added value metal 
-                  based and energy transition is inevitable, provided carry out 
-                  long term prosperity for society, environment and a better life.
+                  With founder's extensive background and experience in the energy and mineral resources sector, in collaboration with competent experts from multiple related disciplines, we believe the alliance in the modern era of added value metal based and energy transition is inevitable, provided carry out long term prosperity for society, environment and a better life.
                 </p>
               </div>
           </div>
@@ -40,7 +32,7 @@ const Home = () => {
           <img className="w-45 mx-auto mt" src={Logo2} alt="/"/>
             <div className="justify-center flex flex-wrap mt-5">
                 <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
-                  RSky Consultant
+                  <a href='/products'>RSky Consultancy</a>
                 </div>
                 <div>
                     <img src={Logo} alt="Icon Image" style={{width: '5rem'}}/>
@@ -55,13 +47,13 @@ const Home = () => {
           <img className="w-45 mx-auto mt" src={Logo1} alt="/"/>
             <div className="justify-center flex flex-wrap mt-5">
                 <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
-                  RSky Investment
+                  <a href='/career'>RSky Investment</a>
                 </div>
                 <div>
                     <img src={Logo} alt="Icon Image" style={{width: '5rem'}}/>
                 </div>
                 <div>
-                  PT Pandasa Prima Investama
+                  PT Mandasa Prima Investama
                 </div>
             </div>
           </div>

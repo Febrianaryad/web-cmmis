@@ -18,7 +18,7 @@ const ViceChairProf = () => {
 
       <div className="max-w-[77.5rem] mx-auto grid md:grid-cols-2 gap-5">
         <div className="w-full flex flex-col p-4 mb-5 mt-20">
-            <img className="mx-auto mt object-scale-down h-80 w-80" src={Prof} alt="/"/>
+            <img className="mx-auto mt object-scale-down h-72 w-72" src={Prof} alt="/"/>
               <div className="justify-center mt-5 items-center text-center">
                   <div className="self-center px-6 text-[#527271] font-extrabold text-4xl">
                   Mohammad Asyhari
@@ -30,7 +30,7 @@ const ViceChairProf = () => {
               </div>
         </div>
 
-        <div className="max-w-[45rem] text-xl text-justify mt-20">
+        <div className="max-w-[45rem] text-xl text-justify mt-20 p-10">
           <br />
           <p>
           Mohammad Asyhari, has more than twelve years cross sectoral experience, working with a range of private and not for profit organizations, includes two national strategic alumina smelters and waste to energy project. For the first decade of his career, Asyhari primarily works on Oil & Gas related to national welding personnel enhancement and several EPC Projects. 

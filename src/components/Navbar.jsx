@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     
     return (
-        <div className="fixed w-full h-[7.5rem] lg:inline-flex lg:flex-row items-center px-4 bg-[#edf3f3] z-50">
+        <div className="fixed w-full h-[7.5rem] flex justify-between items-center px-4 bg-[#edf3f3] z-50">
             <div className="flex flex-wrap">
                 <div>
                     <img src={Logo} alt="Icon Image" style={{width: '5rem'}}/>
@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
             
             <div className="inline-flex flex-row ml-auto">
-                <ul className="hidden md:flex text-[#527271] font-bold text-xl lg:inline-flex lg:flex-row ">
+                <ul className="hidden md:hidden text-[#527271] font-bold text-xl lg:inline-flex lg:flex-row ">
                     <li className="rounded hover:bg-slate-300">
                         <a href="/">Home</a>
                     </li>
@@ -27,19 +27,20 @@ const Navbar = () => {
                         <a href="/team">Team</a>
                     </li>
                     <li className="rounded hover:bg-slate-300">
-                        <a href="/products">Products</a>
+                        <a href="/products">Consultancy</a>
+                    </li>
+                    
+                    <li className="rounded hover:bg-slate-300">
+                        <a href="/career" >Investment</a>
                     </li>
                     <li className="rounded hover:bg-slate-300">
                         <a href="/contacts">Contacts</a>
                     </li>
-                    <li className="rounded hover:bg-slate-300">
-                        <a href="/career" >Career</a>
-                    </li>
                 </ul>
             </div>
 
-            <div onClick={handleClick} className="md:hidden z-10">
-                {!nav ? <FaBars /> : <FaTimes />}
+            <div onClick={handleClick} className="lg:hidden z-10">
+                {!nav ? <FaBars color='DarkSlateGray' className="w-5"/> : <FaTimes color='DarkSlateGray' className="w-5"/>}
             </div>
 
             <div>
@@ -51,14 +52,15 @@ const Navbar = () => {
                         <a href="/team">Team</a>
                     </li>
                     <li className="py-6 text-4xl">
-                        <a href="/products">Products</a>
+                        <a href="/products">Consultancy</a>
+                    </li>
+                    <li className="py-6 text-4xl">
+                        <a href="/career">Investment</a>
                     </li>
                     <li className="py-6 text-4xl">
                         <a href="/contacts">Contacts</a>
                     </li>
-                    <li className="py-6 text-4xl">
-                        <a href="/career">Career</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
